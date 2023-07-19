@@ -48,4 +48,8 @@
     .banner-content-one h2{
         font-size: 30px;
     }
+    .gamer-content{
+        flex-direction: column;
+        width: ;
+    }
 }
