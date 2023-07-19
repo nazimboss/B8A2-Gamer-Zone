@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+
+/* added styles header and navbar part */
+
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-one{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.coloring{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF42A5;
+}
+.navbar-tow{
+    display: flex;
+    align-items: center;
+}
+.navbar-tow ul{
+    display: flex;
+}
+.navbar-tow li{
+    list-style: none;
+    font-weight: 600;
+    color: #3C354F;
+    font-size: 18px;
+}
+.navbar-tow li a{
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 15px;
+}
+.items{
+    display: flex;
+}
+.icons{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    justify-content: center;
+}
+.icons span{
+    padding: 10px;
+}
+.span-one{
+    font-size: 25px;
+    color: #F61C0D;
+}
+.span-tow{
+    font-size: 25px;
+}
+
+/* added styles banner part */
+
+.banner{
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+}
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.banner-photo{
+    width: 511px;
+    height: 465px;
+    background-position: center;
+}
+.banner-content-one{
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.banner-content-one h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-content-one h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-content-one p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    line-height: 35px;
+}
+.btn-primary{
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 35px;
+    background: #FF42A5;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+}
+.btn-collage{
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 35px;
+    background: #4EC5F7;
+    border: none;
+    color: #fff;
+    margin-left: 15px;
+}
+
+/* added styles gamer part */
+.gamer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: auto;
+}
+.gamer-pic{
+    width: 500px;
+}
+.gamer-box-one{
+    width: 500px;
+}
+.gamer-box-tow{
+    width: 550px;
+    text-align: right;
+}
+.gamer-box-tow h1{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-box-tow p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.btn-gamer{
+    padding: 15px 40px;
+    border-radius: 40px;
+    background: #FF42A5;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+.gamer-box-tow h3{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.gamer-box-tow span{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* added styels  online games funny videos part */
+
