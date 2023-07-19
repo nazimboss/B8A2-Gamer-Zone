@@ -328,3 +328,44 @@ nav{
    align-items: center;
    justify-content: center;
 }
+
+/* added styles footer part */
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background: #0B0223;
+
+}
+.footer-box{
+    position: relative;
+    top: 10%;
+}
+.footer-items ul{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 10px;
+    gap: 60px;
+}
+.logos{
+    margin-top: 40px;
+    color: #fff;
+}
+.footer-items ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.fours ul{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
