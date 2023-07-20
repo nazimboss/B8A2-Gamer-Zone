@@ -1,4 +1,7 @@
 @media screen and (max-width: 425px){
+
+    /* navbar responsive creatred here */
+
     nav{
         flex-direction: column;
         margin-top: 80px;
@@ -21,6 +24,9 @@
     .icons{
         margin-top: 15px;
     }
+
+    /* banner responsive creating here */
+
     .banner-content{
         flex-direction: column-reverse;
         margin-top: 100px
@@ -33,6 +39,7 @@
         padding: 25px;
         background-color:#fff5fbb5;
         border-radius: 5px;
+        /* margin-top: 80px; */
     }
     .banner-content-tow{
         margin-bottom: 15px;
@@ -48,8 +55,128 @@
     .banner-content-one h2{
         font-size: 30px;
     }
+
+    /* gamer part responsive here  */
+
     .gamer-content{
         flex-direction: column;
-        width: ;
+        margin-top: 200px;
+    }
+    .gamer-pic{
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 350px;
+    }
+    .gamer-box-tow{
+        width: 80%;
+    }
+    .gamer-box-tow h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .gamer-box-tow p{
+        text-align: center;
+    }
+    .btn-gamer{
+        margin-right: 100px;
+    }
+    .gamer-box-tow h3{
+        text-align: center;
+    }
+
+    /* responsive online games funny videos part */
+
+    .video-deatials{
+        width: 100%;
+    }
+    .video-deatials h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .video-deatials p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .games-video-card{
+        flex-direction: column;
+        gap: 500px;
+    }
+    .ideo-card{
+        width: 80%;
+    }
+
+    /* responsive play instantly part here */
+
+    .play-instantly{
+        flex-direction: column;
+        margin-top: 500px;
+    }
+    .downoald-one{
+        width: 100%;
+        font-size: 20px;
+    }
+    .downoald-one h1 span{
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .downoald-one h1{
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .downoald-one p{
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .downoald-tow{
+        width: 90%;
+        margin-top: 30px;
+        text-align: center;
+        position: relative;
+        margin-left: 30%;
+    }
+    .katon-image{
+        width: 60%;
+        position: absolute;
+        left: -40px;
+    }
+
+    /* responsive all software part */
+
+    .five-apps{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .buttons span img{
+        width: 20px;
+    }
+    .buttons span{
+        font-size: 10px;
+    }
+    .all-softwarr{
+        width: 70%;
+        margin-bottom: 80px;
+    }
+
+    /* created responsive foooter here */
+
+    footer{
+       width: 100%;
+       height: auto;
+    }
+    .footer-items ul{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 }

@@ -327,6 +327,13 @@ nav{
    display: flex;
    align-items: center;
    justify-content: center;
+   
+   border-radius: 50px;
+   background: #FFF;
+   padding: 0 5px;
+}
+.buttons:hover{
+    border: 2px solid #FF42A5;
 }
 
 /* added styles footer part */
